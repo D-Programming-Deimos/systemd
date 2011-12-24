@@ -1,0 +1,26 @@
+systemd D bindings
+------------------
+
+Introduction:
+
+Reference implementation of a few systemd related interfaces for
+writing daemons. These interfaces are trivial to implement. To
+simplify porting we provide this reference implementation.
+
+The following functionality is provided:
+* Support for logging with log levels on stderr
+* File descriptor passing for socket-based activation
+* Daemon startup and status notification
+* Detection of systemd boots
+http://www.freedesktop.org/wiki/Software/systemd
+
+License:
+libsystemd-daemon and the D bindings are released under the MIT license.
+
+Binding version: 37
+
+High-Level Wrapper:
+not available
+
+Windows-DLL:
+not available (no windows support)
